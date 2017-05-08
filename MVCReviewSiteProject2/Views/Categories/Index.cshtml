@@ -17,6 +17,7 @@
             <div class="thumbnail">
                 <div class="caption">
                     <h3>@Html.DisplayFor(modelItem => item.Name)</h3>
+                  @* This is it, this is where it all went wrong. The Comment thing. That's it *@  
                     <p>@Html.DisplayFor(modelItem => item.Comment)</p>
                     <p class="text-center">@Html.ActionLink("Details", "Details", new { id = item.ID }, new { role = "button", @class = "btn btn-primary" })</p>
                 </div>
