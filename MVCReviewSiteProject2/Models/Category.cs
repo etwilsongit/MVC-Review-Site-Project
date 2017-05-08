@@ -13,6 +13,7 @@ namespace MVCReviewSiteProject2.Models
         public int ID { get; set; }
         [Display(Name = "Category Name")]
         public string Name { get; set; }
+        public string Comment { get; set; }
 
         public virtual ICollection<Review> Reviews { get; set; }
 
